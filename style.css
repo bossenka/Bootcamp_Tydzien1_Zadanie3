@@ -1,0 +1,26 @@
+nav {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: -120px;
+  width: 120px;
+  background-color: #FAF7E5;
+  box-shadow: 5px -5px 10px rgba(76, 70, 50, 0.5);
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  border-bottom: 1px black solid;
+}
+li:last-child {
+  border-bottom: 0;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  display: block;
+}
